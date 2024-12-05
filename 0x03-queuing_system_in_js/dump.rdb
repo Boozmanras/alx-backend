@@ -1,0 +1,10 @@
+dump_rdb_content = b"""
+REDIS0009\xfe\x00\xd3\x00\x02\x00\x07Holberton\x06School\x07HolbertonSanFrancisco\x03100\xff\
+"""
+
+file_path = "/mnt/data/dump.rdb"
+with open(file_path, "wb") as f:
+    f.write(dump_rdb_content)
+
+file_path
+
